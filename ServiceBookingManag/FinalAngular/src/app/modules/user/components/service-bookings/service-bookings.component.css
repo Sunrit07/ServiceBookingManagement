@@ -1,0 +1,125 @@
+body {
+  background-color: #98ddea; /* Colorful background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(232, 187, 187, 0.8); /* White background with slight transparency */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+  text-align: center;
+  color: #00796b; /* Dark teal color for headings */
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 12px 20px; /* Increased padding for larger buttons */
+  font-size: 16px; /* Increased font size for buttons */
+  border-radius: 5px; /* Slightly larger border radius */
+}
+
+/* Container for service requests */
+.request-list {
+  margin-top: 30px;
+  background-color: rgba(244, 92, 92, 0.9); /* Light background for request list */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 15px;
+  background-color: #11eb77;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #f1f1f1; /* Lighten background on hover */
+}
+
+.alert {
+  margin-top: 15px;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+/* Button styles */
+.btn-edit {
+  background-color: #4caf50; /* Green color for edit button */
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.btn-delete {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  button {
+    margin-bottom: 10px;
+    width: 100%; /* Full width buttons on small screens */
+  }
+
+  li {
+    padding: 10px;
+  }
+}

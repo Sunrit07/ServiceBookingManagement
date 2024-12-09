@@ -1,0 +1,613 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\controllers\\appservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\controllers\\appservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\testingapi\\appservicerequestrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|solutionrelative:testingapi\\appservicerequestrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\testingapi\\appproductservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|solutionrelative:testingapi\\appproductservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\testingapi\\appproductrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20CC0815-E793-4A83-A17C-45C7CA098BAD}|TestingAPI\\TestingAPI.csproj|solutionrelative:testingapi\\appproductrepotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\appuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\appuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\data\\servicebookingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\data\\servicebookingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\controllers\\appproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\controllers\\appproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\iappuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\iappuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\iappservicerequestreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\iappservicerequestreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\iappservicerequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\iappservicerequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\appproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\appproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\iappproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\iappproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\iappuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\iappuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appservicereqreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appservicereqreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appreportupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appreportupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appservicereq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appservicereq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appprofileupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appprofileupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\apppasswordupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\apppasswordupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\appservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\appservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\iappservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\iappservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\appservicerequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\appservicerequestrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\appproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\appproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\iappproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\iappproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\appservicerequestreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\appservicerequestreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\apppasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\apppasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\migrations\\20240923203834_migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\migrations\\20240923203834_migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\services\\iappservicerequestreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\services\\iappservicerequestreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|c:\\users\\subhendu sarkar\\source\\repos\\capstoneservicebookingapi\\capstoneservicebookingapi\\repositories\\appservicerequestreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F2E4B1E-5018-45C9-8190-5DB386549A9E}|CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI.csproj|solutionrelative:capstoneservicebookingapi\\repositories\\appservicerequestreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppProductRepoTests.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppProductRepoTests.cs",
+              "RelativeDocumentMoniker": "TestingAPI\\AppProductRepoTests.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppProductRepoTests.cs",
+              "RelativeToolTip": "TestingAPI\\AppProductRepoTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T07:46:23.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppProductServiceTests.cs",
+              "RelativeDocumentMoniker": "TestingAPI\\AppProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppProductServiceTests.cs",
+              "RelativeToolTip": "TestingAPI\\AppProductServiceTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T07:51:37.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppServiceRequestRepoTests.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppServiceRequestRepoTests.cs",
+              "RelativeDocumentMoniker": "TestingAPI\\AppServiceRequestRepoTests.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\TestingAPI\\AppServiceRequestRepoTests.cs",
+              "RelativeToolTip": "TestingAPI\\AppServiceRequestRepoTests.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T08:21:14.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppServiceController.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Controllers\\AppServiceController.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppServiceController.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Controllers\\AppServiceController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:43:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppUserRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\AppUserRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppUserRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\AppUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:52:39.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceBookingManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Data\\ServiceBookingManagementDbContext.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Data\\ServiceBookingManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Data\\ServiceBookingManagementDbContext.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Data\\ServiceBookingManagementDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:31:42.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppProductController.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Controllers\\AppProductController.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppProductController.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Controllers\\AppProductController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:38:46.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppUserController.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Controllers\\AppUserController.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Controllers\\AppUserController.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Controllers\\AppUserController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwCYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:35:42.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:04:47.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAppUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppUserService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\IAppUserService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppUserService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\IAppUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:58:41.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppServiceRequestReportRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestReportRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestReportRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestReportRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestReportRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:51:46.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAppServiceRequestRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\IAppServiceRequestRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:50:32.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppProductRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\AppProductRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppProductRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\AppProductRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:54:07.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAppProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppProductRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\IAppProductRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppProductRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\IAppProductRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:49:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAppUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppUserRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\IAppUserRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\IAppUserRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\IAppUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:48:11.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppServiceReqReport.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppServiceReqReport.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppServiceReqReport.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppServiceReqReport.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppServiceReqReport.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA8wBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:43:48.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppReportUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppReportUpdate.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppReportUpdate.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppReportUpdate.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppReportUpdate.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:45:32.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppServiceReq.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppServiceReq.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppServiceReq.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppServiceReq.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppServiceReq.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:42:26.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppProfileUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppProfileUpdate.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppProfileUpdate.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppProfileUpdate.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppProfileUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:38:18.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppProduct.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppProduct.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppProduct.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppProduct.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:40:50.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppPasswordUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppPasswordUpdate.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppPasswordUpdate.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppPasswordUpdate.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppPasswordUpdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:39:27.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppUserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppUserLogin.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppUserLogin.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppUserLogin.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppUserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:37:11.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Models\\AppUser.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:35:34.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppServiceRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppServiceRequestService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AppServiceRequestService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppServiceRequestService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AppServiceRequestService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:18:14.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAppServiceRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppServiceRequestService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\IAppServiceRequestService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppServiceRequestService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\IAppServiceRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:02:26.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppServiceRequestRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestRepo.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:55:43.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAppProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppProductService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\IAppProductService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppProductService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\IAppProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:00:34.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppProductService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AppProductService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppProductService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AppProductService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:15:56.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T21:51:51.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AppServiceRequestReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppServiceRequestReportService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AppServiceRequestReportService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppServiceRequestReportService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AppServiceRequestReportService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:24:52.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\appsettings.json",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T20:02:23.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppUserService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AppUserService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppUserService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AppUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:12:10.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Program.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Program.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwBUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:03:19.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppPasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppPasswordService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\AppPasswordService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\AppPasswordService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\AppPasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:14:15.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240923203834_migr1.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Migrations\\20240923203834_migr1.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Migrations\\20240923203834_migr1.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Migrations\\20240923203834_migr1.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Migrations\\20240923203834_migr1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:38:35.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAppServiceRequestReportService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppServiceRequestReportService.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Services\\IAppServiceRequestReportService.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Services\\IAppServiceRequestReportService.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Services\\IAppServiceRequestReportService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:03:39.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppServiceRequestReportRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestReportRepo.cs",
+              "RelativeDocumentMoniker": "CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestReportRepo.cs",
+              "ToolTip": "C:\\Users\\Subhendu Sarkar\\source\\repos\\CapstoneServiceBookingAPI\\CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestReportRepo.cs",
+              "RelativeToolTip": "CapstoneServiceBookingAPI\\Repositories\\AppServiceRequestReportRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:56:41.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

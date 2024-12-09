@@ -1,0 +1,59 @@
+<app-user-header></app-user-header>
+
+<div class="container">
+  <h2 class="text-center">Create/Update Service Request</h2>
+
+  <form [formGroup]="requestForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="productId">Product ID</label>
+      <input id="productId" formControlName="productId" class="form-control" required />
+      <div *ngIf="requestForm.get('productId')?.invalid && requestForm.get('productId')?.touched" class="text-danger">
+        Product ID is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="problem">Problem</label>
+      <input id="problem" formControlName="problem" class="form-control" required />
+      <div *ngIf="requestForm.get('problem')?.invalid && requestForm.get('problem')?.touched" class="text-danger">
+        Problem is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" formControlName="description" class="form-control" required></textarea>
+      <div *ngIf="requestForm.get('description')?.invalid && requestForm.get('description')?.touched" class="text-danger">
+        Description is required.
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" [disabled]="requestForm.invalid">
+      {{ isUpdate ? 'Update' : 'Create' }} Service Request
+    </button>
+    <button type="button" class="btn btn-secondary" (click)="resetForm()">Reset</button>
+  </form>
+
+  <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+  <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+  <h3 class="text-center">My Existing Service Requests</h3>
+  <div class="request-list">
+    <ul>
+      <li *ngFor="let request of serviceRequests">
+        <h5>Request ID: {{ request.serReqId }}</h5>
+        <p><strong>Product ID:</strong> {{ request.productId }}</p>
+        <p><strong>Problem:</strong> {{ request.problem }}</p>
+        <p><strong>Description:</strong> {{ request.description }}</p>
+        <p><strong>Status:</strong> {{ request.status }}</p>
+        <p><strong>Request Date:</strong> {{ request.reqDate | date:'short' }}</p>
+
+        <button class="btn btn-edit" (click)="editRequest(request)">Update</button>
+        <button class="btn btn-delete" (click)="deleteServiceRequest(request.serReqId)">Delete</button>
+
+        <hr />
+      </li>
+    </ul>
+    <div *ngIf="serviceRequests.length === 0" class="alert alert-info">No service requests found.</div>
+  </div>
+</div>

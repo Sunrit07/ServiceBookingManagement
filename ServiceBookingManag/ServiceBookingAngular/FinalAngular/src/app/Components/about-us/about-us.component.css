@@ -1,0 +1,50 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('../../../assets/images/home3.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* White text for better contrast */
+  text-align: center;
+  min-height: 80vh; /* Full-page height */
+}
+
+.content-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Light background color with some transparency */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for the content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger title */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Uppercase for emphasis */
+  color: #ffd700; /* Optional: Gold color for title */
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 800px;
+  line-height: 1.8; /* Increased line height for readability */
+  color: #333; /* Darker color for better contrast against light background */
+  margin-bottom: 40px; /* Spacing below the paragraph */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-us-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

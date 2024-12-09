@@ -1,0 +1,86 @@
+<app-user-header></app-user-header>
+
+<div class="profile-container my-5">
+    <div class="profile-card p-5 shadow-lg">
+        <h2 class="text-center mb-4">{{ isEditing ? 'Update Profile' : 'User Profile' }}</h2>
+
+        <!-- Display Profile Details -->
+        <div *ngIf="!isEditing">
+            <table class="profile-details w-100">
+                <tr>
+                    <th>Name:</th>
+                    <td>{{ userProfile?.name }}</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>{{ userProfile?.email }}</td>
+                </tr>
+                <tr>
+                    <th>Mobile:</th>
+                    <td>{{ userProfile?.mobile }}</td>
+                </tr>
+                <tr>
+                    <th>User Role:</th>
+                    <td>{{ userProfile?.userRole }}</td>
+                </tr>
+                <tr>
+                    <th>Registration Date:</th>
+                    <td>{{ userProfile?.registrationDate | date:'long' }}</td>
+                </tr>
+            </table>
+
+            <!-- Update Profile Button -->
+            <div class="button-container mt-4">
+                <button class="btn btn-primary" (click)="onEdit()">Update Profile</button>
+            </div>
+        </div>
+
+        <!-- Profile Update Form -->
+<div *ngIf="isEditing" class="d-flex justify-content-center">
+    <form [formGroup]="userProfileForm" (ngSubmit)="onSaveChanges()" class="w-100">
+        <h2 class="text-center mb-4">Update Profile</h2>
+
+        <div class="form-group mb-4">
+            <label for="name">Name</label>
+            <input id="name" type="text" class="form-control" formControlName="name" />
+            <div *ngIf="userProfileForm.get('name')?.invalid && userProfileForm.get('name')?.touched" class="text-danger">
+                Name is required
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="email">Email</label>
+            <input id="email" type="email" class="form-control" formControlName="email" />
+            <div *ngIf="userProfileForm.get('email')?.invalid && userProfileForm.get('email')?.touched" class="text-danger">
+                Valid email is required
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="mobile">Mobile</label>
+            <input id="mobile" type="text" class="form-control" formControlName="mobile" />
+            <div *ngIf="userProfileForm.get('mobile')?.invalid && userProfileForm.get('mobile')?.touched" class="text-danger">
+                Mobile number is required
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="password">New Password</label>
+            <input id="password" type="password" class="form-control" formControlName="password" />
+            <div *ngIf="userProfileForm.get('password')?.invalid && userProfileForm.get('password')?.touched" class="text-danger">
+                Password is required
+            </div>
+        </div>
+
+        <div class="button-container text-center">
+            <button type="submit" class="btn btn-success btn-lg" [disabled]="userProfileForm.invalid">Save Changes</button>
+        </div>
+    </form>
+</div>
+
+
+        <!-- Success/Error Messages -->
+        <div *ngIf="successMessage" class="alert alert-success mt-4">{{ successMessage }}</div>
+        <div *ngIf="errorMessage" class="alert alert-danger mt-4">{{ errorMessage }}</div>
+    </div>
+</div>

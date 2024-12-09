@@ -1,0 +1,156 @@
+/* Navbar styling */
+.navbar-light {
+  background: lightseagreen;
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark {
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Highlight for active links */
+.highlight {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Text colors based on dark mode */
+.text-white {
+  color: white !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+/* Hover effect on links */
+.nav-link {
+  margin-right: 20px;
+  color: #555;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff4081;  /* Modern pink hover effect */
+  transform: scale(1.1);
+}
+
+/* Navbar positioning and styling */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0;
+  margin: 0;
+}
+
+.btn {
+  margin-left: 10px;
+  padding: 8px 16px;  /* Increased padding for a bigger button */
+  font-size: 16px;  /* Increased font size */
+  border-color: #ff4081;
+  color: #ff4081;
+  transition: all 0.3s ease;
+  border-radius: 100px;  /* Slightly rounded edges */
+}
+
+.btn:hover {
+  background-color: #ff4081;
+  color: white;
+  border-color: #ff4081;
+}
+
+.mode-toggle-btn {
+  font-size: 16px;
+}
+
+/* Smooth background color transitions */
+.navbar-dark, .navbar-light, .nav-link, .highlight, .btn {
+  transition: all 0.3s ease;
+}
+
+/* For a better logo appearance (if you add a logo) */
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Dark mode hover effect */
+.navbar-dark .nav-link:hover {
+  color: #ffca28;  /* Nice yellow hover color for dark mode */
+}
+
+.nav-item {
+  margin-right: 5px; /* Spacing between nav items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column; /* Stack nav items vertically */
+      align-items: flex-start; /* Align to the left */
+      padding: 10px; /* Reduce padding */
+  }
+
+  .nav-link {
+      margin-right: 0; /* Remove right margin */
+      margin-bottom: 10px; /* Add bottom margin for spacing */
+      font-size: 16px; /* Reduce font size */
+  }
+
+  .btn {
+      width: 100%; /* Full width buttons on smaller screens */
+      margin: 10px 0; /* Margin for spacing */
+  }
+
+  .logo {
+      font-size: 20px; /* Slightly smaller logo font */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+      font-size: 14px; /* Further reduce font size for very small screens */
+  }
+
+  .btn {
+      font-size: 14px; /* Adjust button font size */
+  }
+
+  .navbar-light,
+  .navbar-dark {
+      padding: 15px; /* Reduce padding for smaller screens */
+  }
+}
+
+.navbar-logo .navbar-brand {
+  font-size: 1.5rem; /* Logo font size */
+  font-weight: bold; /* Optional: make it bold */
+}
+
+.nav .nav-link {
+  font-size: 1.2rem; /* Navigation link font size */
+}
+
+.mode-toggle-btn {
+  font-size: 1.2rem; /* Optional: adjust the button size if needed */
+}

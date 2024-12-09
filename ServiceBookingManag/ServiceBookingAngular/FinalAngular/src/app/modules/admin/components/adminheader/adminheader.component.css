@@ -1,0 +1,119 @@
+/* Admin-specific navbar light theme */
+.navbar-light {
+  background: mediumslateblue;
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin-specific navbar dark theme */
+.navbar-dark {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  padding: 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+/* Highlight for active links */
+.highlight {
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Text colors based on dark mode */
+.text-white {
+  color: white !important;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+/* Hover effect on links */
+.nav-link {
+  margin-right: 20px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffa726; /* Orange hover effect for admin */
+  transform: scale(1.1);
+}
+
+/* Navbar positioning and styling */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none; /* Remove bullet points */
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Button styling */
+.btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-color: #ffa726;
+  color: #ffa726;
+  transition: all 0.3s ease;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  background-color: #ffa726;
+  color: white;
+  border-color: #ffa726;
+}
+
+/* Dark mode toggle button */
+.mode-toggle-btn {
+  font-size: 16px;
+}
+
+/* Smooth background color transitions */
+.navbar-dark, .navbar-light, .nav-link, .highlight, .btn {
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to the left */
+  }
+  
+  .nav-link {
+      margin-right: 0; /* Remove right margin for stacked links */
+      margin-bottom: 10px; /* Add space between stacked links */
+  }
+  
+  .btn {
+      width: 100%; /* Make buttons full width on small screens */
+      margin-left: 0; /* Remove left margin on small screens */
+      margin-top: 10px; /* Add top margin to space it out */
+  }
+  
+  .navbar-light, .navbar-dark {
+      padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .nav-link {
+      font-size: 16px; /* Slightly smaller font size for mobile */
+  }
+  
+  .btn {
+      font-size: 14px; /* Slightly smaller font size for buttons */
+      padding: 6px 12px; /* Adjust padding for smaller buttons */
+  }
+}

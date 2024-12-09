@@ -1,0 +1,149 @@
+/* General Admin Dashboard Styling */
+.admin-dashboard {
+    padding: 40px;
+    background-color: #f4f6f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Table Container */
+.table-container {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header Styling */
+.custom-table thead th {
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table Row Styling */
+.custom-table tbody td {
+    padding: 15px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Rows */
+.custom-table tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+/* Status Update Container */
+.status-update-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Status Select Styling */
+.status-select {
+    width: 180px;
+}
+
+.mat-select {
+    width: 100%;
+}
+
+/* Button Styling */
+button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+button.mat-raised-button {
+    background-color: #6200ea;
+    color: white;
+}
+
+button.mat-raised-button:hover {
+    background-color: #3700b3;
+}
+
+/* Responsive Styling */
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .custom-table thead th,
+    .custom-table tbody td {
+        font-size: 1rem;
+    }
+
+    .status-select {
+        width: 150px;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .custom-table thead,
+    .custom-table tbody {
+        display: block;
+    }
+
+    .custom-table thead tr,
+    .custom-table tbody tr {
+        display: table;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+    }
+
+    .custom-table thead th,
+    .custom-table tbody td {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-bottom: none;
+    }
+
+    .status-update-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .status-select {
+        margin-bottom: 10px;
+    }
+}

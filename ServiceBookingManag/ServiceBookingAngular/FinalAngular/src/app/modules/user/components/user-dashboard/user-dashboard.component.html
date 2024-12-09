@@ -1,0 +1,26 @@
+<app-user-header></app-user-header>
+<div class="dashboard">
+    <h1>Welcome to My Dashboard</h1>
+   
+    <div class="content">
+      <h2>My ServiceRequests</h2>
+      <table>
+        <tr>
+          <th>Problem</th>
+          <th>Description</th>
+          <th>Status</th>
+          <th>Register Date</th>
+        </tr>
+        <tr *ngFor="let booking of serviceRequests">
+          <td>{{ booking.problem }}</td>
+          <td>{{ booking.description }}</td>
+          <td>{{ booking.status }}</td>
+          <td>{{ booking.reqDate | date}}</td>
+        </tr>
+      </table>
+    </div>
+ 
+    <div class="footer">
+      &copy; {{ currentYear }} Sunrit Sarkar
+    </div>
+  </div>

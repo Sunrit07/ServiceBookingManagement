@@ -1,0 +1,100 @@
+/* Dashboard Styling */
+.dashboard {
+  padding: 10px;
+  background-color: #f0f4f8; /* Light background color */
+  color: #343a40;
+  min-height: 80vh; /* Ensures the dashboard takes up the full height of the page */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff; /* Bold blue color for heading */
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content {
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  max-width: 1200px; /* Limit the table width */
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #fff;
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensures rounded corners are applied */
+}
+
+th, td {
+  padding: 13px;
+  text-align: center; /* Center-align all table content */
+  font-size: 18px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td {
+  background-color: rgba(0, 123, 255, 0.05); /* Light blue background for table rows */
+  color: #343a40;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 123, 255, 0.08); /* Alternating row color for even rows */
+}
+
+tr:hover {
+  background-color: rgba(0, 123, 255, 0.2); /* Light blue hover effect */
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #6c757d;
+  padding: 10px;
+  background-color: #e9ecef; /* Light grey footer background */
+  border-radius: 10px; /* Rounded footer */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 30px; /* Adjust heading size for smaller screens */
+  }
+
+  th, td {
+      padding: 10px;
+      font-size: 16px;
+  }
+
+  table {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 22px; /* Further reduce font size for very small screens */
+  }
+
+  th, td {
+      padding: 8px;
+      font-size: 14px;
+  }
+}

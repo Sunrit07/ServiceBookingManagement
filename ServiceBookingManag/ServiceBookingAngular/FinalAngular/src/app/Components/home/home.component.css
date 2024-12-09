@@ -1,0 +1,50 @@
+/* Existing hero container styles */
+/* Apply a background image to the whole page */
+
+
+
+.hero-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('../../../assets/images/home3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+/* Hero content styles */
+.hero-content {
+    text-align: center;
+}
+
+/* Footer styles */
+.footer {
+    background-color: rgba(25, 118, 210, 0.8); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Vertical padding */
+    position: relative; /* Allows footer to stay at the bottom */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero-container {
+        padding: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,252 @@
+/* Center form container and its elements */
+
+
+
+.form-container {
+  text-align: center;
+  margin-top: 20px; /* Adds space at the top of the form */
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between; /* Distributes space between label and input */
+  align-items: center; /* Aligns items vertically in the center */
+}
+
+.form-control {
+  flex-grow: 1; /* Makes the input take the remaining space */
+  margin-left: 10px; /* Adds space between the label and input */
+  max-width: 300px; /* Optional: set a maximum width for the input */
+}
+
+
+.form-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 30px;
+  text-align: center; /* Already centers the text horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust this height as needed to ensure it is centered vertically */
+}
+
+
+/* Adjust button spacing for update and delete */
+.table td .btn-warning {
+  margin-right: 10px; /* Adds space between Update and Delete */
+}
+
+/* Custom container styling */
+.custom-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form card */
+.form-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.form-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 30px; /* Adds space below the title */
+}
+
+/* Form label styling */
+.form-label-lg {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 10px; /* Adds space below labels */
+  display: block; /* Ensures the label appears above the input */
+}
+
+/* Input fields styling */
+.form-control-lg {
+  font-size: 1.1rem;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control-lg:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+h3 {
+  text-align: center; /* Ensures text is centered */
+  margin: 20px 0; /* Optional: adds top and bottom margin */
+}
+
+.heading-title {
+  font-size: 2.5rem; /* Adjust the size as needed */
+  font-weight: bold; /* Optional: make it bold */
+  color: #007bff; /* Optional: change color to match your theme */
+}
+
+/* Button styling */
+.btn-lg {
+  font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: yellow;
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Adds space above the submit button */
+}
+
+.btn-lg:hover {
+  background-color: rgb(245, 118, 118);
+}
+
+/* Product list styling */
+.product-list-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #e8f0fe;
+}
+
+/* Update and delete button styling */
+.btn-warning {
+  background-color: greenyellow;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-right: 10px; /* Adds space between update and delete */
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.custom-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+}
+
+/* Adjust form card background to make it stand out against the gradient */
+.form-card {
+  background-color: #ffffff; /* Keeps the form card white for contrast */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Additional styling for the title and button */
+.form-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 30px; /* Adds space below the title */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow to the text */
+}
+
+.btn-lg {
+  font-size: 1.2rem;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ff6b81; /* Attractive button color */
+  border: none;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Adds space above the submit button */
+}
+
+.btn-lg:hover {
+  background-color: #ff4f6d; /* Darker shade on hover */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .custom-container {
+    padding: 20px;
+  }
+
+  .form-title {
+    font-size: 2rem;
+  }
+
+  .form-control-lg {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .btn-lg {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .table th, .table td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-title {
+    font-size: 1.8rem;
+  }
+
+  .form-control-lg {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .btn-lg {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .table th, .table td {
+    padding: 8px;
+  }
+}

@@ -1,0 +1,46 @@
+<app-admin-header></app-admin-header>
+
+<div class="admin-dashboard" style="background-color: #f8f9fa; padding: 50px 0;">
+    <h2 style="text-align: center; color: #333; font-family: 'Arial', sans-serif;">Service Requests</h2>
+
+    <div class="table-container" style="max-width: 1200px; margin: 0 auto; background-color: #fff; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 10px;">
+        <table class="custom-table" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: #e9ecef;">
+                    <th class="text-center" style="padding: 12px; font-weight: bold; color: #333;">Request ID</th>
+                    <th class="text-center" style="padding: 12px; font-weight: bold; color: #333;">Product ID</th>
+                    <th class="text-center" style="padding: 12px; font-weight: bold; color: #333;">Problem</th>
+                    <th class="text-center" style="padding: 12px; font-weight: bold; color: #333;">Current Status</th>
+                    <th class="text-center" style="padding: 12px; font-weight: bold; color: #333;">Update Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let request of serviceRequests" style="border-bottom: 1px solid #ddd;">
+                    <td class="text-center" style="padding: 10px;">{{ request.serReqId }}</td>
+                    <td class="text-center" style="padding: 10px;">{{ request.productId }}</td>
+                    <td style="padding: 10px;">{{ request.problem }}</td>
+                    <td class="text-center" style="padding: 10px;">{{ request.status }}</td>
+                    <td style="padding: 10px;">
+                        <div class="status-update-container">
+                            <mat-form-field class="status-select" appearance="fill">
+                                <mat-select 
+                                    [(value)]="request.updatedStatus" 
+                                    (selectionChange)="onStatusChange(request, $event.value)">
+                                    <mat-option *ngFor="let option of statusOptions" [value]="option">
+                                        {{ option }}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <button 
+                                mat-raised-button 
+                                color="primary" 
+                                (click)="updateStatus(request)">
+                                Update
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

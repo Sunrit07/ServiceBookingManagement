@@ -1,0 +1,27 @@
+<div [ngClass]="isDarkMode ? 'navbar-dark' : 'navbar-light'">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" [ngClass]="isDarkMode ? 'text-white' : 'text-dark'" routerLink="/user-dashboard" routerLinkActive="highlight" [routerLinkActiveOptions]="{ exact: true }" aria-current="page">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [ngClass]="isDarkMode ? 'text-white' : 'text-dark'" routerLink="/product-management" routerLinkActive="highlight">Product Management</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [ngClass]="isDarkMode ? 'text-white' : 'text-dark'" routerLink="/service-bookings" routerLinkActive="highlight">Service Bookings</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [ngClass]="isDarkMode ? 'text-white' : 'text-dark'" routerLink="/user-profile" routerLinkActive="highlight">Profile</a>
+    </li>
+   
+    <li class="nav-item">
+      <button class="btn btn-sm btn-danger" (click)="signOut()">Sign Out</button>
+    </li>
+
+    <li class="nav-item">
+      <button class="btn btn-sm btn-outline-secondary mode-toggle-btn" (click)="toggleDarkMode()">
+        <i class="bi p-1" [ngClass]="isDarkMode ? 'bi-sun' : 'bi-moon'"></i>
+      </button>
+    </li>
+  
+  </ul>
+</div>

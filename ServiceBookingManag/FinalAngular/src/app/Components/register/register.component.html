@@ -1,0 +1,63 @@
+<app-header></app-header>
+
+<div class="login-container">
+  <div class="login-card">
+    <div class="login-image">
+      <img class="imageClass" src="../../../assets/images/login-register.png" alt="Hey">
+    </div>
+
+    <div class="login-form-container">
+      <h2 class="title">REGISTER</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" formControlName="name" required />
+          <div *ngIf="registerForm.controls['name'].invalid && (registerForm.controls['name'].dirty || registerForm.controls['name'].touched)" class="error-message">
+            <ng-container *ngIf="registerForm.controls['name'].errors?.['required']">Name is required.</ng-container>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" formControlName="email" required />
+          <div *ngIf="registerForm.controls['email'].invalid && (registerForm.controls['email'].dirty || registerForm.controls['email'].touched)" class="error-message">
+            <ng-container *ngIf="registerForm.controls['email'].errors?.['required']">Email is required.</ng-container>
+            <ng-container *ngIf="registerForm.controls['email'].errors?.['email']">Invalid email format.</ng-container>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input type="password" id="password" formControlName="password" required />
+          <div *ngIf="registerForm.controls['password'].invalid && (registerForm.controls['password'].dirty || registerForm.controls['password'].touched)" class="error-message">
+            <ng-container *ngIf="registerForm.controls['password'].errors?.['required']">Password is required.</ng-container>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" formControlName="confirmPassword" required />
+          <div *ngIf="registerForm.controls['confirmPassword'].invalid && (registerForm.controls['confirmPassword'].dirty || registerForm.controls['confirmPassword'].touched)" class="error-message">
+            <ng-container *ngIf="registerForm.controls['confirmPassword'].errors?.['required']">Confirm Password is required.</ng-container>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="mobile">Mobile</label>
+          <input type="tel" id="mobile" formControlName="mobile" />
+        </div>
+
+        <div class="login-button">
+          <button type="submit" [disabled]="registerForm.invalid">Register</button>
+        </div>
+
+        <div class="register-link">
+          <a routerLink="/login">Already Have an Account?</a>
+        </div>
+
+        <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+      </form>
+    </div>
+  </div>
+</div>

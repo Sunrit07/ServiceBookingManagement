@@ -1,0 +1,113 @@
+<app-user-header></app-user-header>
+
+<div class="custom-container my-5">
+  <div class="card shadow-lg p-5 rounded form-card">
+    <h2 class="text-center mb-4 form-title">{{ editingProduct ? 'Edit Product' : 'Add Product' }}</h2>
+
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()" class="form-container">
+      <div class="form-group mb-4">
+        <label for="productName" class="form-label form-label-lg">Product Name</label>
+        <input
+          type="text"
+          id="productName"
+          formControlName="productName"
+          class="form-control form-control-lg"
+          placeholder="Enter product name"
+        />
+        <div *ngIf="productForm.get('productName')?.invalid && productForm.get('productName')?.touched" class="text-danger">
+          Product Name is required
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <label for="make" class="form-label form-label-lg">Make</label>
+        <input
+          type="text"
+          id="make"
+          formControlName="make"
+          class="form-control form-control-lg"
+          placeholder="Enter make"
+        />
+        <div *ngIf="productForm.get('make')?.invalid && productForm.get('make')?.touched" class="text-danger">
+          Make is required
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <label for="model" class="form-label form-label-lg">Model</label>
+        <input
+          type="text"
+          id="model"
+          formControlName="model"
+          class="form-control form-control-lg"
+          placeholder="Enter model"
+        />
+        <div *ngIf="productForm.get('model')?.invalid && productForm.get('model')?.touched" class="text-danger">
+          Model is required
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <label for="cost" class="form-label form-label-lg">Cost</label>
+        <input
+          type="number"
+          id="cost"
+          formControlName="cost"
+          class="form-control form-control-lg"
+          placeholder="Enter cost"
+        />
+        <div *ngIf="productForm.get('cost')?.invalid && productForm.get('cost')?.touched" class="text-danger">
+          Cost must be a valid number
+        </div>
+      </div>
+
+      <div class="form-group mb-4">
+        <label for="createdDate" class="form-label form-label-lg">Created Date</label>
+        <input
+          type="text"
+          id="createdDate"
+          formControlName="createdDate"
+          class="form-control form-control-lg"
+          readonly
+        />
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100 btn-lg" [disabled]="productForm.invalid">
+        {{ editingProduct ? 'Update' : 'Submit' }}
+      </button>
+    </form>
+
+    <div *ngIf="successMessage" class="alert alert-success mt-4">{{ successMessage }}</div>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-4">{{ errorMessage }}</div>
+  </div>
+</div>
+
+<div class="product-list-container">
+  <h3 class="text-center mt-5 mb-4 heading-title">List of All Products</h3>
+
+  <table class="table mt-3">
+    <thead>
+      <tr>
+        <th>PId</th>
+        <th>Product Name</th>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Cost</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.productId }}</td>
+        <td>{{ product.productName }}</td>
+        <td>{{ product.make }}</td>
+        <td>{{ product.model }}</td>
+        <td>${{ product.cost }}</td>
+        <td>
+          <button class="btn btn-warning btn-sm" (click)="onEdit(product)">Update</button>
+          <button class="btn btn-danger btn-sm" (click)="onDelete(product)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
